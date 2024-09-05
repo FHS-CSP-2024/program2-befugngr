@@ -51,16 +51,17 @@
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
 
-
-
+name = input("What is your Name? ")
+print (name)
+print (name)
 
 ## Problem 2 ##
 #Please write a script that: 
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
-
+name = input("What is your Name? ")
+print ("!"+ name +"!"+name+"!")
 ## Problem 3 ##
 #Please write a script that: 
 # - Asks for the user's name and address. 
@@ -70,13 +71,22 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
-
+Fname = input("What is your First name? ")
+Lname = input("What is your Last name? ")
+adres = input("What is your Street address? ")
+city = input("What is your City and Postal Code? ")
+print (Fname)
+print (Lname)
+print (adres)
+print (city)
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
-
+1=input("Give me a Word? ")
+2=input("Give me a Word? ")
+3=input("Give me a Word? ")
+print (1+"/"2+"/"+3)
 ## Problem 5 ##
 #Please write a script that: 
 # - Asks for a name and a year
@@ -88,3 +98,7 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name= input("Please type in a name:")
+year= input("Please type in a year:")
+print ("Once upon a time"+name "A robber was coming into the house The year was"+year+"."+name+" hit the robber with a bat and the robber dissapeared")
