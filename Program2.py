@@ -86,7 +86,7 @@ print (city)
 1=input("Give me a Word? ")
 2=input("Give me a Word? ")
 3=input("Give me a Word? ")
-print (1+"/"2+"/"+3)
+print (1+"/")(2+"/"+3)
 ## Problem 5 ##
 #Please write a script that: 
 # - Asks for a name and a year
@@ -101,4 +101,4 @@ print (1+"/"2+"/"+3)
 
 name= input("Please type in a name:")
 year= input("Please type in a year:")
-print ("Once upon a time"+name "A robber was coming into the house The year was"+year+"."+name+" hit the robber with a bat and the robber dissapeared")
+print ("Once upon a time"+name) ("A robber was coming into the house The year was"+year+"."+name+" hit the robber with a bat and the robber dissapeared")
